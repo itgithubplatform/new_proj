@@ -1,0 +1,15 @@
+# Streamlit UI Requirements
+streamlit==1.29.0
+watchdog==3.0.0
+
+# API Client
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Data Handling
+pandas==2.1.4
+
+# Additional UI Components
+plotly==5.18.0
+streamlit-lottie==0.0.5
+streamlit-option-menu==0.3.6
