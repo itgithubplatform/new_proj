@@ -1,40 +1,14 @@
 # ========================================
 # TalentScout - Streamlit Cloud Requirements
-# Optimized for Streamlit Cloud Deployment
+# Minimal dependencies for deployment
 # ========================================
 
 # Streamlit UI
 streamlit==1.29.0
-watchdog==3.0.0
 
-# AI & LLM - Google Gemini 2.0
+# AI & LLM - Google Gemini 2.0 (REQUIRED)
 google-generativeai==0.3.2
 
-# Vector Database (Lightweight)
-chromadb==0.4.22
-
-# HTTP & API Client
-requests==2.31.0
-httpx==0.26.0
-
-# Data Processing
-pandas==2.1.4
-numpy==1.26.3
-
-# Validation
-email-validator==2.1.0
-python-phonenumbers==8.13.27
-
 # Core Dependencies
+requests==2.31.0
 python-dotenv==1.0.0
-pydantic==2.5.3
-
-# Data Visualization (optional)
-plotly==5.18.0
-
-# Date & Time
-python-dateutil==2.8.2
-
-# Note: Backend dependencies (FastAPI, PostgreSQL, etc.) removed
-# This is for Streamlit Cloud frontend-only deployment
-# For full stack deployment, use Docker or separate backend hosting
